@@ -3,7 +3,7 @@ const { REST, Routes, ActivityType } = require('discord.js'); // Import Activity
 const fs = require('fs');
 const status = "AUTOMATIC";
 const botName = "Music Bot [ Distube ]";
-const Text = "GlaceYT";
+const Text = "lau_win";
 const version = "Latest@ v4.0"; 
 const startTime = Date.now();
 const config = require('../config');
@@ -40,7 +40,7 @@ module.exports = async (client) => {
   );
 
   
-  client.user.setActivity('Netflix', {
+  client.user.setActivity('DEV BY lau_win', {
     type: ActivityType.Watching,
   });
 };
